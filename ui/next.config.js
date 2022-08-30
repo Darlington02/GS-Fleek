@@ -3,6 +3,12 @@ const nextConfig = {
   
   reactStrictMode: true,
 
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
+
   env: {
     BASE_URL: process.env.BASE_URL,
   },
